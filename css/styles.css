@@ -14,6 +14,7 @@
     --active-bgc-button: #404BBF;
     --button-text-color: #4D5AE5;
     --button-text-bgc: #F4F4FD;
+    --primary-social-logo: #F4F4FD;
 }
 
 body {
@@ -284,6 +285,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     justify-content: center;
     background-color: #4D5AE5;
 }
+.social-logo {
+    fill: var(--primary-social-logo);
+}
 
 /* Customers */
 .customers-title {
@@ -324,7 +328,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .customers-img {
     fill: #8E8F99;
-    padding: 16px 32px;
 }
 .customers-img:hover,
 .customers-img:focus {
