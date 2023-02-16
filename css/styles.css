@@ -295,12 +295,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     width: 168px;
     height: 88px;
     margin-right: 24px;
-    background: #FFFFFF;
+    background: var(--primary-bg-color);
     border-radius: 4px;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #8E8F99;
-    border-radius: 4px;
 }
 .customers-item:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -308,7 +307,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* .customers-item:nth-child(1) {
     background-image: url('../images/client-1-1.svg');
 } */
-.customers-item:nth-child(2) {
+/* .customers-item:nth-child(2) {
     background-image: url('../images/client-2-2.svg');
 }
 .customers-item:nth-child(3) {
@@ -323,7 +322,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .customers-item:nth-child(6) {
     margin-right: 0;
     background-image: url('../images/client-6-6.svg');
-}
+} */
 
 /*Footer*/
 
@@ -357,18 +356,25 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .text-footer {
     width: 264px;
     justify-content: flex-start;
+    
 }
 .footer-container {
     display: flex;
+    justify-content: space-between;
+    
+}
+.container .footer-stab {
+    margin-right: 120px;
+
 }
 .footer-title-soc {
     color: var(--text-footer-color);
 }
 .footer-container-soc {
+    
     width: 208px;
     height: 80px;
-    margin-left: 120px;
-    margin-right: auto;
+    
 }
 .footer-list {
     display: flex;
