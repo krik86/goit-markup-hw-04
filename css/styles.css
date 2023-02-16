@@ -324,30 +324,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .customers-img {
     fill: #8E8F99;
+    padding: 16px 32px;
 }
 .customers-img:hover,
 .customers-img:focus {
     fill: var(--active-color);
 }
-/* .customers-item:nth-child(1) {
-    background-image: url('../images/client-1-1.svg');
-} */
-/* .customers-item:nth-child(2) {
-    background-image: url('../images/client-2-2.svg');
-}
-.customers-item:nth-child(3) {
-    background-image: url('../images/client-3-3.svg');
-}
-.customers-item:nth-child(4) {
-    background-image: url('../images/client-4-4.svg');
-}
-.customers-item:nth-child(5) {
-    background-image: url('../images/client-5-5.svg');
-}
-.customers-item:nth-child(6) {
-    margin-right: 0;
-    background-image: url('../images/client-6-6.svg');
-} */
 
 /*Footer*/
 
