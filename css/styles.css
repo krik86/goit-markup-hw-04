@@ -258,23 +258,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-bottom: 32px;
     text-align: center;
     background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
 }
-/* .social-link {
-    content: '';
-    width: 40px;
-    height: 40px;
-    background-color: #404BBF;
-    border-radius: 50%;
-    margin-right: 24px;
-    margin-top: 8px;
-    display: inline-block;
-    
-}
-.social-icon {
-    content: '';
-    width: 24px;
-    height: 24px;
-    display: inline-block;} */
 
 .team-social-list {
     display: flex;
@@ -320,9 +305,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .customers-item:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.customers-item:nth-child(1) {
+/* .customers-item:nth-child(1) {
     background-image: url('../images/client-1-1.svg');
-}
+} */
 .customers-item:nth-child(2) {
     background-image: url('../images/client-2-2.svg');
 }
@@ -424,7 +409,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0 auto;
     margin-top: 48px;
     min-width: 169px;
-    border: 1px solid #000000;
+    border: 1px solid transparent;
 }
 .button:active,
 .button:focus,
@@ -477,6 +462,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-right: 0;
 }
 
+
 /*Hidden headers*/
 .title-portfolio {
     visibility: hidden;
@@ -516,7 +502,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .item-card:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
-.item-card:hover {
+.item-card:hover,
+.item-card:focus {
+    border: 1px solid #E7E9FC;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .project-border {
