@@ -303,6 +303,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .customers-item:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #404BBF;
+    border: 1px solid #404BBF;
 }
 /* .customers-item:nth-child(1) {
     background-image: url('../images/client-1-1.svg');
@@ -355,26 +357,20 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .text-footer {
     width: 264px;
-    justify-content: flex-start;
-    
+    justify-content: flex-start; 
 }
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex; 
 }
-.container .footer-stab {
+.footer-stab {
     margin-right: 120px;
-
 }
 .footer-title-soc {
     color: var(--text-footer-color);
 }
 .footer-container-soc {
-    
     width: 208px;
     height: 80px;
-    
 }
 .footer-list {
     display: flex;
@@ -383,8 +379,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-top: 16px;
 }
 .footer-soc-item {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -395,7 +391,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(77, 90, 229, 1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /*Button*/
