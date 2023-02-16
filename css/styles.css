@@ -247,6 +247,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .team-members {
     margin-right: 24px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-members:nth-child(4n) {
     margin-right: 0;
@@ -309,10 +311,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     height: 88px;
     margin-right: 24px;
     background: #FFFFFF;
-    border: 1px solid #000000;
     border-radius: 4px;
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 .customers-item:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -391,6 +394,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .footer-soc-item {
     width: 44px;
     height: 44px;
+    justify-content: center;
+    align-items: center;
 }
 .footer-social-link {
     border-radius: 50%;
