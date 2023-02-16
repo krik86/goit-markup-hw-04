@@ -322,6 +322,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: var(--active-color);
     border: 1px solid var(--active-color);
 }
+.customers-img {
+    fill: #8E8F99;
+}
 .customers-img:hover,
 .customers-img:focus {
     fill: var(--active-color);
